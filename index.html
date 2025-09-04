@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MC Mowing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f0f9f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #3c9a3c;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #2e7d32;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .service {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      flex: 1 1 300px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #3c9a3c;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2e7d32;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #3c9a3c;
+      color: white;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MC Mowing</h1>
+    <p>Making Your Lawn Look Its Best</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At MC Mowing, we’re dedicated to providing professional and affordable lawn maintenance services for residential and commercial clients. Whether it’s mowing, edging, or seasonal cleanups, we treat your lawn like our own.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Lawn Mowing</h3>
+        <p>Regular mowing services to keep your grass healthy and your yard looking sharp.</p>
+      </div>
+      <div class="service">
+        <h3>Edging & Trimming</h3>
+        <p>Clean lines and well-maintained edges around driveways, sidewalks, and garden beds.</p>
+      </div>
+      <div class="service">
+        <h3>Seasonal Cleanup</h3>
+        <p>Spring and fall cleanups to remove debris, leaves, and prepare your lawn for the season.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GreenBlade Lawn Care. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
